@@ -1427,7 +1427,7 @@ MonoBehaviour:
   m_DistanceCalculationMode: 1
   m_SelectMode: 1
   m_FocusMode: 1
-  m_CustomReticle: {fileID: 3521457681945940986, guid: 493691fe396bc5c40900e8a234c5c60e,
+  m_CustomReticle: {fileID: 7685877334673627699, guid: fdbc8576e196240988a843af2baf897d,
     type: 3}
   m_AllowGazeInteraction: 0
   m_AllowGazeSelect: 0

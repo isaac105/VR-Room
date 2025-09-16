@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class RotatingObject : MonoBehaviour
 {
-    public float rotationSpeed = 30f; 
-    public Vector3 rotationAxis = Vector3.up; 
+    [Tooltip("초당 회전 속도 (도 단위)")]
+    public float rotationSpeed = 100f;
 
     void Update()
     {
-        transform.Rotate(rotationAxis, rotationSpeed * Time.deltaTime);
+       transform.Rotate(Vector3.down * rotationSpeed * Time.deltaTime, Space.Self);
     }
 }
